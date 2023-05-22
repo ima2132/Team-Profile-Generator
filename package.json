@@ -1,0 +1,20 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "## Table of Contents  - [Description](#description) - [Installation](#installation) - [Usage](#usage) - [License](#license) - [Deployed URL](#deployed-url)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.5.0"
+  }
+}
+
