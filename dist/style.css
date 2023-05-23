@@ -1,69 +1,57 @@
-/* Global Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f8f8f8;
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+
+
+/* style and employees were inspired by the series avatar: the last airbender */ 
+
+/* title */ 
+h1  {
+  font-family: 'Catamaran', sans-serif;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #f9c35d;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900; color: #464343; 
 }
 
+/* styled the containers */ 
 .container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #a5d6ed;
+  border-radius: 20px;
+  font-size: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1200px;
-  margin: 0 auto;
   gap: 20px;
+
 }
 
 .card {
-  width: 300px;
-  background-color: #fff;
+  width: calc(33.33% - 20px); /* adjusted the width based on the desired spacing */
+  background-color: #f9edd5;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* added some bottom margin for spacing between rows */
+  display: flex;
+  flex-direction: column;
 }
 
-.card-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px;
+
+/* employee cards styled */
+h3, .manager-card, .engineer-card, .intern-card {
+  font-family: 'Catamaran', sans-serif;
   text-align: center;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  justify-content: space-between;
+  background-color: #f9eeda;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300; color: #464343; 
+  border: 2px; #464343;
+  color:#d73a24; 
 }
 
-.card-body {
-  padding: 20px;
-}
 
-.card-body ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
 
-.card-body li {
-  margin-bottom: 10px;
-}
-
-.card-footer {
-  background-color: #f4f4f4;
-  padding: 10px;
-  text-align: center;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-/* Manager Card Styles */
-.manager-card {
-  border: 2px solid #007bff;
-}
-
-/* Engineer Card Styles */
-.engineer-card {
-  border: 2px solid #28a745;
-}
-
-/* Intern Card Styles */
-.intern-card {
-  border: 2px solid #ffc107;
-}
