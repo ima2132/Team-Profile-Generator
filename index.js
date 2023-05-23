@@ -167,7 +167,7 @@ function generateEmployee() {
 
 // team profile gets generated in dist folder in team.html
 const writeFile = (data) => {
-    fs.writeFile("./dist/index.html", data, (err) => {
+    fs.writeFile("./dist/team.html", data, (err) => {
         if (err) {
             console.log(err);
         } else {
