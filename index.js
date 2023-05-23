@@ -106,6 +106,8 @@ function generateEmployee() {
                 return true;
             }
         },
+    
+        // engineer prompt section 
         {
             type: 'input',
             message: "Please enter the employee's GitHub username.",
@@ -118,6 +120,8 @@ function generateEmployee() {
             },
             when: (answers) => answers.role === "Engineer"
         },
+       
+       // intern prompt section 
         {
             type: 'input',
             message: "Please enter the intern's school name.",
@@ -130,6 +134,8 @@ function generateEmployee() {
             },
             when: (answers) => answers.role === "Intern"
         },
+        
+     // option to add more members to the team section    
         {
             type: 'confirm',
             name: 'confirmMore',
@@ -159,6 +165,7 @@ function generateEmployee() {
     });
 }
 
+// team profile gets generated in dist folder in team.html
 const writeFile = (data) => {
     fs.writeFile("./dist/index.html", data, (err) => {
         if (err) {
