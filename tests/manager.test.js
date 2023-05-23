@@ -1,3 +1,4 @@
+// manager info 
 const Manager = require('../lib/Manager');
 
 describe('Manager', () => {
