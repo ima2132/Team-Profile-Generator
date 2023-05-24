@@ -44,3 +44,6 @@ Please refer to the LICENSE listed in the repo.
 Click on the link below to watch a video demonstration of how to use the application:
 
 
+[Team Profile Generator Demo.webm](https://github.com/ima2132/Team-Profile-Generator/assets/117132129/aa510c9b-cf00-4c31-ae85-79add7ecec3c)
+
+
