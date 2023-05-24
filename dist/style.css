@@ -12,7 +12,7 @@ h1  {
   background-color: #f9c35d;
   font-size: 30px;
   font-style: italic;
-  font-weight: 900; color: #464343; 
+  font-weight: 900; color: #d73a24;
 }
 
 /* styled the containers */ 
@@ -50,7 +50,7 @@ h3, .manager-card, .engineer-card, .intern-card {
   font-style: italic;
   font-weight: 300; color: #464343; 
   border: 2px; #464343;
-  color:#d73a24; 
+  color: 464343; 
 }
 
 
